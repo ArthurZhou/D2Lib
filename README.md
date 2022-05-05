@@ -7,7 +7,7 @@ Tip:While you are using a .md file, the page's title is same as your file name(*
 D2Lib(2 doc types' library) is a lite weight tool for you to open a doc centre easily. It supports .md and .html file.
 
 ## Installations
-[Check out on wiki page]()
+[Check out on wiki page](https://github.com/ArthurZhou/D2Lib/wiki/Installations)
 
 ## Runtime
 [Python3.7.2](https://www.python.org/downloads/release/python-372/)
