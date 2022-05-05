@@ -5,8 +5,6 @@ D2Lib(2 doc types' library) is an online library support *.html* files and *.md*
 ## Info
 Start your journey here
 ## Content
-[What's new?](update_log.md)
-
-[Readme](readme.md)
+[Readme](readme)
 
 [A *.html* example for this page](home.html)
