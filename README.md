@@ -1,7 +1,7 @@
 # [D2Lib](https://github.com/ArthurZhou/D2Lib)
 A Python tool that provides online libraries. Supported markdown and html files.
 
-Tip:While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be removed)!
+Tip: While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be invisible)!
 
 ## Built-in NAT LICENSE (if you are going to download 1.0.0-beta6 or later, please read it)
 [View it here](https://github.com/ArthurZhou/D2Lib/wiki/Bulit-in-NAT-LICENSE)
@@ -14,7 +14,8 @@ Hi there! Thank you for choose this project!
 
 Before you download anything, you need to know that you only need to download .py file.All .md, .html, .css or .sh file are not required when running the programme!
 
-[Check out on wiki page](https://github.com/ArthurZhou/D2Lib/wiki/Installations)
+*.zip* file under every releases is a simple template. If you have no idea about how to build your own library, you may want to hav a look at that.
+[Get help on wiki page](https://github.com/ArthurZhou/D2Lib/wiki/Installations)
 
 ## Runtime
 [Python3.7.2](https://www.python.org/downloads/release/python-372/)
