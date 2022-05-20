@@ -5,4 +5,4 @@ D2Lib(2 doc types' library) is an online library support *.html* files and *.md*
 ## Info
 Start your journey here
 ## Content
-[Readme](readme)
+[Readme](https://arthurzhou.github.io/D2Lib/)
