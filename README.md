@@ -1,4 +1,4 @@
-# D2Lib
+# [D2Lib](https://github.com/ArthurZhou/D2Lib)
 A Python tool that provides online libraries. Supported markdown and html files.
 
 Tip:While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be removed)!
