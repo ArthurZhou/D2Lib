@@ -3,6 +3,9 @@ A Python tool that provides online libraries. Supported markdown and html files.
 
 Tip:While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be removed)!
 
+## Built-in NAT LICENSE (if you are going to download 1.0.0-beta6 or later, please read it)
+[View it here](https://github.com/ArthurZhou/D2Lib/wiki/Bulit-in-NAT-LICENSE)
+
 ## What is D2Lib
 D2Lib(2 doc types' library) is a lite weight tool for you to open a doc centre easily. It supports .md and .html file.
 
