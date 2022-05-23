@@ -1,4 +1,6 @@
 # [D2Lib](https://github.com/ArthurZhou/D2Lib)
+![favicon](https://user-images.githubusercontent.com/89689293/169742944-03cfbf81-9c60-490d-ac99-dbbe2b937d44.jpg)
+
 A Python tool that provides online libraries. Supported markdown and html files.
 
 Tip: While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be invisible)!
