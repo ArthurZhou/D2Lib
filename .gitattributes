@@ -1,2 +1,3 @@
 *.html linguist-language=html
 *.css linguist-language=css
+*.md linguist-language=markdown
