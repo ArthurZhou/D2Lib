@@ -1,4 +1,9 @@
 # [D2Lib](https://github.com/ArthurZhou/D2Lib)
+![badge1](https://img.shields.io/github/issues/ArthurZhou/D2Lib?style=for-the-badge)
+![badge2](https://img.shields.io/github/forks/ArthurZhou/D2Lib?style=for-the-badge)
+![badge3](https://img.shields.io/github/stars/ArthurZhou/D2Lib?style=for-the-badge)
+![badge4](https://img.shields.io/github/license/ArthurZhou/D2Lib?style=for-the-badge)
+
 ![favicon](https://user-images.githubusercontent.com/89689293/169742944-03cfbf81-9c60-490d-ac99-dbbe2b937d44.jpg)
 
 A Python tool that provides online libraries. Supported markdown and html files.
