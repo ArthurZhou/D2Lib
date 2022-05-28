@@ -1,3 +1,5 @@
+"""THIS ONLY WORK FOR 1.2.0-beta2 OR LOWER"""
+
 import http.client
 
 connection = http.client.HTTPConnection("0.0.0.0", 80)
