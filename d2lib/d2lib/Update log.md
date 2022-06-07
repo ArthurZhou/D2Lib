@@ -1,5 +1,4 @@
-# update log for 1.2.0-beta5
+# update log for 1.2.0-stable
 
-1. Enchantment for executable running
-2. Official executable file
-3. Fix a ton of bugs
+1. Enable api login
+2. Bug fixes
