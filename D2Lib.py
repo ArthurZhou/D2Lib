@@ -215,7 +215,8 @@ def login():    # login page handler
     if ENABLE_AUTH:     # check if auth in enabled
         if request.method == 'GET':     # if requester want to get page view(get page use 'GET' method,
             # while login form use 'POST' method)
-            if request.args.get('login'):   # if use arguments to login (how to use this api to login: )
+            if request.args.get('login'):   # if use arguments to login (how to use this api to login:
+                # https://github.com/ArthurZhou/D2Lib/blob/main/new_api.py)
                 if hashlib.sha256((request.args.get('login')).encode('utf-8')).hexdigest() in keyList:
                     session['user'] = request.args.get('login').split(':')[0]
                     return redirect('/')
