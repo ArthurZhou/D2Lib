@@ -1,4 +1,4 @@
-# D2Lib End Users License Agreement(D2Lib EULA, write as `EULA` below)
+# D2Lib End Users License Agreements(D2Lib EULA, write as `EULA` below)
 <small>Version: 202206-1-s</small>
 
 ***WARNING: This EULA may not the latest one. Please always follow [the newest EULA](https://github.com/ArthurZhou/D2Lib/blob/main/EULA.md)!***
