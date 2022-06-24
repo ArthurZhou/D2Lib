@@ -1,4 +1,4 @@
-# D2Lib End Users License Agreements(D2Lib EULA, write as `EULA` below)
+# D2Lib End User License Agreement(D2Lib EULA, write as `EULA` below)
 <small>Version: 202206-1-s</small>
 
 ***WARNING: This EULA may not the latest one. Please always follow [the newest EULA](https://github.com/ArthurZhou/D2Lib/blob/main/EULA.md)!***
@@ -18,7 +18,7 @@ you MUST READ AND AGREE with our [NAT License](https://github.com/ArthurZhou/D2L
 
 ## Themes
 After 1.3.0-beta1, you can use different themes for D2Lib.
-This EULA does not work for themes. Please follow the EULAs of the themes you use.
+This EULA does not work for themes. Please follow the EULAs or Licenses of the themes you use.
 
 The default theme of D2Lib is [`night`](https://github.com/ArthurZhou/D2Lib-themes/tree/main/night).
 You can view more themes on [this site](https://github.com/ArthurZhou/D2Lib-themes).
