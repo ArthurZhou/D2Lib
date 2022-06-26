@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport">
+    <title>Login</title>
+    <style>
+        body {
+            height: 100vh;
+            background: url('{{ url_for('static', filename='image/bg.jpg') }}') no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: None;
+            color: #58748d;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        }
+
+        a:link, a:visited {
+            color: #58748d;
+        }
+
+        a:hover {
+            color: #539899;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #c3c3c3;
+            background: #58748d;
+        }
+
+        .box {
+            width: 100%;
+            height: 70%;
+            animation: fadeInAnimation ease 4.0s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            background: rgba(16, 16, 16, 0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+        }
+
+        .box > h2 {
+            color: rgba(195, 195, 195, 0.9);
+            margin-bottom: 30px;
+            font-family: Arial, sans-serif;
+        }
+
+        .box .input-box {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .box .input-box label {
+            font-size: 13px;
+            color: rgba(195, 195, 195, 0.9);
+            margin-bottom: 5px;
+        }
+
+        .box .input-box input {
+            letter-spacing: 1px;
+            font-size: 14px;
+            box-sizing: border-box;
+            width: 250px;
+            height: 35px;
+            border-radius: 10px;
+            border: 0;
+            background: rgba(195, 195, 195, 0.2);
+            outline: none;
+            padding: 0 12px;
+            color: rgba(195, 195, 195, 0.9);
+            transition: 0.2s;
+        }
+
+        .box .input-box input:focus {
+            border: 2px solid rgba(195, 195, 195, 0.8);
+        }
+
+        .box .btn-box {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .box .btn-box > a {
+            outline: none;
+            display: block;
+            width: 250px;
+            text-align: end;
+            text-decoration: none;
+            font-size: 13px;
+            color: rgba(195, 195, 195, 0.9);
+        }
+
+        .box .btn-box > a:hover {
+            color: rgba(195, 195, 195, 1);
+        }
+
+        .box .btn-box > div {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box .btn-box > button {
+            outline: none;
+            margin-top: 10px;
+            display: block;
+            font-size: 14px;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        .box .btn-box > button:nth-of-type(1) {
+            width: 250px;
+            height: 35px;
+            color: rgba(195, 195, 195, 0.9);
+            border: 0;
+            background: rgba(88, 116, 141, 0.5);
+        }
+
+        .box .btn-box > button:nth-of-type(2) {
+            width: 250px;
+            height: 35px;
+            margin-left: 10px;
+            color: rgba(195, 195, 195, 0.9);
+            border: 0;
+            background: rgba(88, 116, 141, 0.5);
+        }
+
+        .box .btn-box > button:hover {
+            background: rgba(88, 116, 112, 0.5);
+            border: 3px solid rgba(195, 195, 195, 0.8)
+        }
+
+        p {
+            text-align: center;
+            color: #c3c3c3;
+            font-family: Helvetica, serif;
+            font-size: 100%;
+            display: inline;
+            letter-spacing: 1px;
+            text-indent: 20px;
+            line-height: 120%;
+        }
+
+        p.warn {
+            text-align: center;
+            color: #e34f4f;
+            font-family: Helvetica, serif;
+            font-size: 100%;
+            display: inline;
+            text-indent: 0;
+            letter-spacing: 1px;
+            line-height: 120%;
+        }
+
+        ::placeholder {
+            color: rgba(41, 41, 41, 0.5);
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h2>Login</h2>
+    <form method="post">
+        <div class="input-box">
+            <label><input name="user" placeholder="Username" type="text"/></label>
+        </div>
+        <div class="input-box">
+            <label><input name="psw" placeholder="Password" type="password"/></label>
+        </div>
+        <div class="btn-box">
+            <a href="/">I think I`ve logged in</a>
+            <button name="Login" type="submit">Login</button>
+            <br>
+            <p class="warn">{{msg}}</p>
+            <br>
+            <p>Photograph by zstbee</p>
+        </div>
+    </form>
+</div>
+</body>
+</html>
