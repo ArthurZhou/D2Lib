@@ -1,3 +1,5 @@
 *.html linguist-language=html
 *.css linguist-language=css
+*.sh linguist-language=shell
+*.js linguist-language=javascript
 *.rtf linguist-language=python
