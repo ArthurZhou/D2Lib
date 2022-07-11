@@ -1,18 +1,232 @@
-# [D2Lib](https://github.com/ArthurZhou/D2Lib)
-A Python tool that provides online libraries. Supported markdown and html files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>D2Lib on GitHub</title>
+    <style>
+        body {
+            height: 100vh;
+            background: url('bg.jpg') no-repeat fixed;
+            background-size: cover;
+        }
 
-Tip:While you are using a .md file, the page's title is same as your file name(*.md* and *.html* will be removed)!
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
-## What is D2Lib
-D2Lib(2 doc types' library) is a lite weight tool for you to open a doc centre easily. It supports .md and .html file.
+        div {
+            margin: 30px;
+            padding: 10px;
+        }
 
-## Installations
-[Check out on wiki page](https://github.com/ArthurZhou/D2Lib/wiki/Installations)
+        img {
+            border-radius: 10px;
+        }
 
-## Runtime
-[Python3.7.2](https://www.python.org/downloads/release/python-372/)
+        hr {
+            border-top: 5px solid #c3c3c3;
+            border-bottom-width: 0;
+            border-left-width: 0;
+            border-right-width: 0;
+            border-radius: 3px;
+        }
 
-We only have source releases now, because it'll be easier for you to change options and docs.And, nobody wants to run a packed application on his/her server, I think :)
+        h1 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 250%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
 
-## License
-GPL-3.0
+        h2 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 220%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        h3 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 190%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        h4 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 170%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        h5 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 150%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        h6 {
+            color: #c3c3c3;
+            font-family: Arial, serif;
+            font-size: 130%;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        code {
+            color: #c8c8c8;
+            font-family: Courier New, serif;
+        }
+
+        a {
+            text-decoration: None;
+            color: #58748d;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        }
+
+        a:link, a:visited {
+            color: #58748d;
+        }
+
+        a:hover {
+            color: #539899;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #c3c3c3;
+            background: #101010;
+        }
+
+        p {
+            color: #c3c3c3;
+            font-family: Helvetica, serif;
+            font-size: 100%;
+            display: inline;
+            text-indent: 100px;
+            letter-spacing: 1px;
+            line-height: 120%;
+        }
+
+        p.warn {
+            color: #e33a3a;
+            font-family: Helvetica, serif;
+            font-size: 100%;
+            display: inline;
+            text-indent: 100px;
+            letter-spacing: 1px;
+            line-height: 120%;
+        }
+
+        ul {
+            list-style-type: square;
+            font-family: Helvetica, serif;
+            color: #c3c3c3;
+        }
+
+        ol {
+            font-family: Helvetica, serif;
+            color: #c3c3c3;
+        }
+
+        table {
+            border: 2px solid #101010;
+            font-family: Helvetica, serif;
+        }
+
+        th {
+            border: 1px solid #101010;
+            font-family: Helvetica, serif;
+            color: #c3c0c3;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            font-family: Helvetica, serif;
+            color: #c3c3c3;
+            text-align: center;
+            padding: 2px;
+        }
+
+        input {
+            color: #c3c3c3;
+            font-family: Helvetica, serif;
+            background: #101010;
+            border-width: 0;
+            height: 20px;
+            width: 200px;
+        }
+
+        div.fade {
+            animation: fadeInAnimation ease 0.3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            margin: 0 40px 10px 40px;
+            border-radius: 5px 5px 15px 15px;
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border-radius: 15px 15px 5px 5px;
+            background-color: rgba(51, 51, 51, 0.7);
+        }
+
+        li.menu {
+            float: left;
+        }
+
+        li.logout {
+            float: right;
+        }
+
+        li.menu a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.menu a:hover {
+            background-color: #111;
+        }
+
+        li.logout a {
+            display: block;
+            color: #958a4b;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.logout a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+<div><ul class="menu"><li class="menu"><a class="menu" href="index.html">Home</a></li></ul><li class="menu"><a class="menu" href="README.md">Readme</a></li></div>
+<div class="fade">{{text | safe}}</div>
+<div class="bottom"><br><hr><p>Powered by D2Lib</p></div>
+</body>
+</html>
