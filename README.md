@@ -1,3 +1,5 @@
+# We are now migrating to [D2Lib/D2Lib](https://github.com/D2Lib/D2Lib)(rewriten in Golang)
+
 # [D2Lib](https://github.com/ArthurZhou/D2Lib)
 ![badge1](https://img.shields.io/github/issues/ArthurZhou/D2Lib?style=for-the-badge)
 ![badge2](https://img.shields.io/github/forks/ArthurZhou/D2Lib?style=for-the-badge)
